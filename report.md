@@ -5,7 +5,7 @@
 Instead of computing the graph manually, I have used python to both visualise and compute the ford-fulkerson algorithm for the maximum flow of the graph defined in the coursework. 
 To define the graph I have used a directed dictionary of edge lists as well as coordinate mappings from the networkx dependency from matplotlib to degine the structure and layout of the graph defined for the CW. 
 
-'
+'''
 graph = {
     'S': {'A': 9, 'E': 8, 'I': 7, 'M': 3},
     'A': {'B': 2, 'N': 6},
@@ -36,14 +36,15 @@ pos = {
     
     'T': (5, 1.5)
 }
-'
+'''
 
 ### Creating the algorithm
 To create the algorithm I used the Ford-Fulkerson algorithm to compute the maximum flow of the network. 
 To create arbitrary augmenting paths I implemented a standard BFS search, which is inspired by the code found here : https://www.geeksforgeeks.org/dsa/ford-fulkerson-algorithm-in-python/
 This served as the base, which was modified to use a structured list called steps to help visualise the residual network and capacity constraint of the graph as the algorithm is implemented. 
 
-'def ford_fulkerson(graph, source, sink):
+'''
+def ford_fulkerson(graph, source, sink):
     max_flow = 0
     
     # Save initial state
@@ -97,11 +98,13 @@ This served as the base, which was modified to use a structured list called step
         })
     
     return max_flow, steps'
+'''
 
 ### Visualising the algorithm 
 To visualise the algorithm I used a design that implemented the global list of steps done by the FF algorithm to create a a comparison to the capacity to visualise the steps.
 
-'def draw_graph(graph, original_graph, pos, title="Flow Network"):
+'''
+def draw_graph(graph, original_graph, pos, title="Flow Network"):
     G = nx.DiGraph()
 
     # Compute actual flow = original - residual
@@ -140,7 +143,7 @@ for i, step_info in enumerate(steps):
 
     draw_graph(step_info['graph'], original_graph, pos, 
                title=f"Step {i}: Flow = {step_info['total_flow']}" if i > 0 else "Initial Graph")
-'
+'''
 
 
 
