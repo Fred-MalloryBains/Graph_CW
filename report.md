@@ -194,7 +194,7 @@ Total flow so far: 7
 `
 Augmenting path: S → E → F → K → P → T
 Flow added: 3
-Total flow so far: 10
+Total flow so far: 8
 `
 ![Step 5](results_sc/step_5.png)
 
@@ -203,7 +203,7 @@ Total flow so far: 10
 `
 Augmenting path: S → E → F → C → H → T
 Flow added: 1
-Total flow so far: 11
+Total flow so far: 9
 `
 ![Step 6](results_sc/step_6.png)
 
@@ -212,7 +212,7 @@ Total flow so far: 11
 `
 Augmenting path: S → I → J → G → L → T
 Flow added: 2
-Total flow so far: 13
+Total flow so far: 11
 `
 ![Step 7](results_sc/step_7.png)
 
@@ -222,7 +222,7 @@ Total flow so far: 13
 `
 Augmenting path: S → M → J → G → L → T
 Flow added: 2
-Total flow so far: 15
+Total flow so far: 13
 `
 ![Step 8](results_sc/step_8.png)
 
@@ -231,7 +231,7 @@ Total flow so far: 15
 `
  Augmenting path: S → E → F → C → H → G → L → T
 Flow added: 1
-Total flow so far: 16
+Total flow so far: 14
 `
 ![Step 9](results_sc/step_9.png)
 
@@ -240,7 +240,7 @@ Total flow so far: 16
 `
 Augmenting path: S → I → F → C → B → G → L → T
 Flow added: 1
-Total flow so far: 17
+Total flow so far: 15
 `
 ![Step 10](results_sc/step_10.png)
 
@@ -249,6 +249,6 @@ Total flow so far: 17
 `
 Augmenting path: S → I → F → C → B → G → J → O → D → T
   Flow added: 1
-  Total flow so far: 18
+  Total flow so far: 16
 `
 ![Step 11](results_sc/step_11.png)
