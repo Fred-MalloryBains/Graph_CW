@@ -152,6 +152,7 @@ for i, step_info in enumerate(steps):
 ## results: 
 
 These are the results of the FF algorithm (computing an arbitrary augmenting path, computing the minimum capacity of the path and updating the network).
+Also ignore the flow incorrect titles, this is an issue.
 
 ### Step 1 
 
