@@ -160,7 +160,7 @@ Augmenting path: S → A → B → C → D → T
 Flow added: 2
 Total flow so far: 2
 `
-!([results_sc/step_1.png](https://github.com/Fred-MalloryBains/Graph_CW/blob/main/results_sc/step_1.png))
+![results_sc/step_1.png](https://github.com/Fred-MalloryBains/Graph_CW/blob/main/results_sc/step_1.png)
 
 ### Step 2
 
