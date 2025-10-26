@@ -149,9 +149,106 @@ for i, step_info in enumerate(steps):
 
 
 
-### results: 
+## results: 
 
 These are the results of the FF algorithm (computing an arbitrary augmenting path, computing the minimum capacity of the path and updating the network).
 
+### Step 1 
+
+`
+Augmenting path: S → A → B → C → D → T
+Flow added: 2
+Total flow so far: 2
+`
 ![Step 1](results_sc/step_1.png)
 
+### Step 2
+
+'
+Augmenting path: S → A → N → K → L → T
+Flow added: 1
+Total flow so far: 3
+'
+![Step 2](results_sc/step_2.png)
+
+### Step 3
+
+'
+Augmenting path: S → A → N → O → P → T
+Flow added: 3
+Total flow so far: 6
+'
+![Step 3](results_sc/step_3.png)
+
+### Step 4 
+
+'
+Augmenting path: S → E → F → G → H → T
+Flow added: 1
+Total flow so far: 7
+'
+![Step 4](results_sc/step_4.png)
+
+### Step 5 
+
+'
+Augmenting path: S → E → F → K → P → T
+Flow added: 3
+Total flow so far: 10
+'
+![Step 5](results_sc/step_5.png)
+
+### Step 6 
+
+'
+Augmenting path: S → E → F → C → H → T
+Flow added: 1
+Total flow so far: 11
+'
+![Step 6](results_sc/step_6.png)
+
+### Step 7 
+
+'
+Augmenting path: S → I → J → G → L → T
+Flow added: 2
+Total flow so far: 13
+'
+![Step 7](results_sc/step_7.png)
+
+
+### Step 8 
+
+'
+Augmenting path: S → M → J → G → L → T
+Flow added: 2
+Total flow so far: 15
+'
+![Step 8](results_sc/step_8.png)
+
+### Step 9 
+
+' 
+ Augmenting path: S → E → F → C → H → G → L → T
+Flow added: 1
+Total flow so far: 16
+'
+![Step 9](results_sc/step_9.png)
+
+### Step 10 
+
+'
+Augmenting path: S → I → F → C → B → G → L → T
+Flow added: 1
+Total flow so far: 17
+'
+![Step 10](results_sc/step_10.png)
+
+### Step 11 
+
+'
+Augmenting path: S → I → F → C → B → G → J → O → D → T
+  Flow added: 1
+  Total flow so far: 18
+'
+![Step 11](results_sc/step_11.png)
