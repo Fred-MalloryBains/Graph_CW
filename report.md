@@ -38,7 +38,8 @@ pos = {
 }
 ```
 
-### Creating the algorithm
+### Creating the algorithm
+
 To create the algorithm I used the Ford-Fulkerson algorithm to compute the maximum flow of the network. 
 To create arbitrary augmenting paths I implemented a standard BFS search, which is inspired by the code found here : https://www.geeksforgeeks.org/dsa/ford-fulkerson-algorithm-in-python/
 This served as the base, which was modified to use a structured list called steps to help visualise the residual network and capacity constraint of the graph as the algorithm is implemented. 
@@ -101,6 +102,7 @@ def ford_fulkerson(graph, source, sink):
 ```
 
 ### Visualising the algorithm 
+
 To visualise the algorithm I used a design that implemented the global list of steps done by the FF algorithm to create a a comparison to the capacity to visualise the steps.
 
 ```
@@ -149,4 +151,7 @@ for i, step_info in enumerate(steps):
 
 ### results: 
 
+These are the results of the FF algorithm (computing an arbitrary augmenting path, computing the minimum capacity of the path and updating the network).
+
+![Step 1](results_sc/step_1.png)
 
