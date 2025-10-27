@@ -1,5 +1,6 @@
 # Ford Fulkerson algorithm for graph 
 
+link to the report and repository: https://github.com/Fred-MalloryBains/Graph_CW/edit/main/report.md
 ### Initalising the graph 
 
 Instead of computing the graph manually, I have used python to both visualise and compute the ford-fulkerson algorithm for the maximum flow of the graph defined in the coursework. 
